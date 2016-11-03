@@ -1,8 +1,11 @@
+![alt text](/img/logo.png "Aries Integration for Transforming Typeform")
+
 #Aries Integration for Transforming [Typeform](https://www.typeform.com/help/data-api/)
 
 Typeform is a web-based platform where users can create online forms. Users will then be able to monitor and track answers associated with each form. This integration transforms the raw response into a mapped array of objects with key/value pairs set as question/answer.
 
-##Astronomer Formatted Response
+## Response
+This integration transforms the raw response into a mapped array of objects with key/value pairs set as question/answer values.
 ```javascript
 [
   {
