@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "aries-data": "aries-data/aries-data",
-    "highland": "^2.8.1"
+    "highland": "^2.8.1",
+    "through2-map": "^2.0.0"
   }
 }
