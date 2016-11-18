@@ -2,6 +2,8 @@
 
 #Aries Integration for Transforming [Typeform](https://www.typeform.com/help/data-api/)
 
+[![CircleCI](https://circleci.com/gh/aries-data/aries-activity-typeform-transform.svg?style=svg)](https://circleci.com/gh/aries-data/aries-activity-typeform-transform)
+
 Typeform is a web-based platform where users can create online forms. Users will then be able to monitor and track answers associated with each form. This integration transforms the raw response into a mapped array of objects with key/value pairs set as question/answer.
 
 ## Response
