@@ -61,11 +61,10 @@ This integration transforms the raw response into a mapped array of objects with
     "user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
   }
  ]
- ```
+```
+## License
 
-
- ## License
-
- MIT
+MIT
 [ci-link]: https://circleci.com/gh/aries-data/aries-activity-typeform-transform
 [ci-badge]: https://circleci.com/gh/aries-data/aries-activity-typeform-transform.svg?style=svg
+
