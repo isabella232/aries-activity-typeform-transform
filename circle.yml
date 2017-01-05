@@ -6,6 +6,7 @@ machine:
 
 dependencies:
   override:
+    - npm install
     - docker info
     - docker build --rm=false -t astronomerio/typeform-transform .
 
