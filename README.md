@@ -62,5 +62,10 @@ This integration transforms the raw response into a mapped array of objects with
   }
  ]
  ```
+
+
+ ## License
+
+ MIT
 [ci-link]: https://circleci.com/gh/aries-data/aries-activity-typeform-transform
 [ci-badge]: https://circleci.com/gh/aries-data/aries-activity-typeform-transform.svg?style=svg
