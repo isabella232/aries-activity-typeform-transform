@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha --require babel-polyfill --compilers js:babel-register",
     "test-watch": "mocha -w --require babel-polyfill --compilers js:babel-register",
+    "lint": "eslint lib",
+    "docker-coverage": "docker run --entrypoint npm <%= imageName %> run coverage",
+    "docker-lint": "docker run --entrypoint npm <%= imageName %> run lint",
     "coverage": "babel-node ./node_modules/.bin/isparta cover _mocha",
     "tail": "tail -f app.log | bunyan -o short",
     "build-image": "docker build --no-cache -t astronomerio/typeform-transform ."
