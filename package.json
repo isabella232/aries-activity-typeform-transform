@@ -35,7 +35,7 @@
     "mocha": "^3.1.2"
   },
   "dependencies": {
-    "aries-data": "aries-data/aries-data",
+    "aries-data": "aries-data/aries-data#alois/stream-bytes",
     "highland": "^2.8.1",
     "through2-map": "^2.0.0",
     "lodash.omit": "^4.5.0",
