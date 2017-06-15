@@ -6,6 +6,14 @@
 
 Typeform is a web-based platform where users can create online forms. Users will then be able to monitor and track answers associated with each form. This integration transforms the raw response into a mapped array of objects with key/value pairs set as question/answer.
 
+## Methods
+
+### On Task
+`onTask` - Runs the Activity.
+
+## Configuration
+This Activity does not use any config options.
+
 ## Response
 This integration transforms the raw response into a mapped array of objects with key/value pairs set as question/answer values.
 ```javascript
